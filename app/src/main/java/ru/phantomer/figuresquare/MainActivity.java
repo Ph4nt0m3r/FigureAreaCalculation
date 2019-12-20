@@ -20,6 +20,14 @@ public class MainActivity extends AppCompatActivity {
         input = findViewById(R.id.editText);
     }
 
+/* Ведутся работы по исправлению багов.
+Программа поддерживает ввод данных типа:
+type=triangle;one=3;two=4;three=5;
+type=triangle;angle2=3;angle2=4;angle3=5;
+type=circle;radius=5;
+type=square;side=5
+ */
+
     public void start(View view) {
         String figure = input.getText().toString();
 

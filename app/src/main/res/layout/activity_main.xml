@@ -8,9 +8,9 @@
 
     <EditText
         android:id="@+id/editText"
-        android:layout_width="344dp"
-        android:layout_height="281dp"
-        android:layout_marginStart="32dp"
+        android:layout_width="311dp"
+        android:layout_height="202dp"
+        android:layout_marginStart="16dp"
         android:layout_marginTop="16dp"
         android:ems="10"
         android:hint="Ввод"
